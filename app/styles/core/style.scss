@@ -1,0 +1,43 @@
+// Charset
+
+
+// CONTENTS
+// INDEX - TABLE
+// 1. Colors
+// 2. Font Family and Title
+// 2.1 Font Rulers
+// 3. Layout
+
+
+// 1. Colors
+
+
+// 2. Font Family and Title
+
+.title {
+	font-size: 20px;
+}
+
+// 2.1 Font Rulers
+.hrTitleRuler {
+	border-bottom: thin solid #000;
+	width: 30px;
+}
+
+// 3. Layout
+.paddingAll {
+	padding: 30px;
+}
+
+.flexContent {
+	display: flex;
+	justify-content: space-between;
+
+	.heading {
+		justify-content: flex-start;
+	}
+
+	.navLinks {
+		justify-content: flex-end;
+	}
+}
